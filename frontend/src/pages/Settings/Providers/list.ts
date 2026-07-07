@@ -95,7 +95,7 @@ export const ProviderList: Readonly<ProviderInfo[]> = [
       "Anime Tosho is a free, completely automated service which mirrors most torrents posted on TokyoTosho's anime category, Nyaa.si's English translated anime category and AniDex's anime category.",
     inputs: [
       {
-        type: "text",
+        type: "password",
         key: "api_key",
         name: "API Key",
       },
