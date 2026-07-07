@@ -89,6 +89,26 @@ export const ProviderList: Readonly<ProviderInfo[]> = [
     message: "Requires AniDB Integration.",
   },
   {
+    key: "animetosho_xyz",
+    name: "Anime Tosho XYZ",
+    description:
+      "Anime Tosho is a free, completely automated service which mirrors most torrents posted on TokyoTosho's anime category, Nyaa.si's English translated anime category and AniDex's anime category.",
+    inputs: [
+      {
+        type: "text",
+        key: "api_key",
+        name: "API Key",
+      },
+      {
+        type: "text",
+        key: "search_threshold",
+        defaultValue: 6,
+        name: "Search Threshold. Increase if you often cannot find subtitles for your Anime. Note that increasing the value will decrease the performance of the search for each Episode.",
+      },
+    ],
+    message: "Requires AniDB Integration.",
+  },
+  {
     key: "animesubinfo",
     name: "AnimeSub.info",
     description: "Polish Anime Subtitles Provider",
